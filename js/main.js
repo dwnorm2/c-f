@@ -41,11 +41,5 @@ function getCTemps(data) {
   document.getElementById(`c`).textContent = cTemp;
 }
 
-function updateUI(day1IdealHumidity, day2IdealHumidity, day3IdealHumidity) {
-  document.getElementById(`day1Humidity`).textContent = day1IdealHumidity + "%";
-  document.getElementById(`day2Humidity`).textContent = day2IdealHumidity + "%";
-  document.getElementById(`day3Humidity`).textContent = day3IdealHumidity + "%";
-}
-
 searchF();
 searchC();
